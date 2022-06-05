@@ -1,0 +1,656 @@
+
+@media screen and (max-width: 792px){
+
+/* 导航 */
+.home .back2 .topnav .nav li{
+    width: 12.5%;
+    font-size: 12px;
+    padding: 0;
+}
+.home .back2 .topnav .nav .search{
+    width: 100%;
+    text-align: center;
+}
+.home .back2 .topnav .nav .search input{
+    width: 60%;
+    border: none;
+    outline: none;
+}
+.home .back2 .topnav .nav .search button{
+    border: none;
+    outline: none;
+    background-color:rgb(197,218,255) ;
+    padding: 3px 5px ;
+    width: 30%;
+    margin: 0 0 0 2%;
+}
+.home .back2 .topnav .nav li a{
+    pointer-events:none; 
+cursor:default;
+}
+.home .backbady .badys .leftbady .leftnav{
+    text-align: center;
+}
+.home .backbady .badys .leftbady .leftnav span{
+    margin: 0 7%;
+    line-height: 30px;
+}
+.home .backbady .badys .leftbady .leftnav .ranking{
+    color: rgb(63,133,255);
+}
+.home .backbady .badys .leftbady .leftnav .rightnav{
+    display: none;
+}
+/* 文章 */
+.home .backbady .badys .leftbady .articles .article{
+    display: flex;
+    margin: 3px 0;
+    border-bottom:2px solid #ddd;
+    border-image: linear-gradient(to right,#eee, #fff) 20 20;
+}
+.home .backbady .badys .leftbady .articles .article div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 5px 0 0;
+    
+}
+.home .backbady .badys .leftbady .articles .article .titles .updatedAt{
+    display: none;
+}
+.home .backbady .badys .leftbady .articles .article .title .categoryId{
+    background-color: rgb(197,218,255);
+    color: #fff;
+    padding: 2px 3px;
+    margin: 0 5px 0 0 ;
+}
+.home .backbady .badys .leftbady .articles .article .titles{
+    line-height: 30px;
+}
+.home .backbady .badys .leftbady .articles .article .titles span{
+    margin: 0 5px;
+}
+.home .backbady .badys .leftbady .articles .article .titles .level{
+    background-color: #eee;
+    padding: 3px 4px;
+}
+.home .backbady .badys .leftbady .articles .article .titles .asf{
+    color: #888;
+}
+.home .backbady .badys .leftbady .articles .article .titles .nickname{
+    color: rgb(63,133,255);
+}
+.home .backbady .badys .leftbady .articles .theBottom{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.home .backbady .badys .leftbady .articles .thePage{
+    background-color: rgb(63,133,255);
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.home .backbady .badys .leftbady .articles .thePage span{
+    margin: 0 5%;
+}
+.home .backbady .badys .leftbady .articles .thePage .pages{
+    display: none;
+}
+.home .backbady .badys .leftbady .articles .thePage .athePage{
+    display: none;
+}
+.home .backbady .badys .leftbady .articles .thePage .inputPage input{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.home .backbady .badys .leftbady .articles .thePage  .select{
+    display: none;
+}
+.home .backbady .badys .leftbady .articles .thePage input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.home .backbady .badys .leftbady .articles .thePage input{
+    width: 10%;
+    height: 38px;
+    border:none;
+    outline: none;
+    color: #000;
+}
+.home .backbady .badys .leftbady .articles .thePage .glyphicon-menu-left{
+    float: left;
+    margin: 0 5px 0 5px;
+    position: relative;
+    top: 12px;
+}
+.home .backbady .badys .leftbady .articles .thePage .glyphicon-menu-right{
+    float: right;
+    margin: 0 5px 0 5px;
+    position: relative;
+    top: 12px;
+}
+/* 右 */
+.home .backbady .badys .rightbady{
+    display: none;
+}
+.home .backbady .badys .rightbady .topic .topicTitle{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-bottom:2px solid #ddd;
+    border-image: linear-gradient(to right,#fff,#ddd, #fff) 20 20;
+}
+.home .backbady .badys .rightbady .topic .topicNav{
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+.home .backbady .badys .rightbady .topic .topicNav span{
+    flex: 1;
+    padding: 3px 4px;
+    background-color: rgb(197,218,255);
+}
+.home .backbady .badys .rightbady .visitors .visitorsTitle{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-bottom:2px solid #ddd;
+    border-image: linear-gradient(to right,#fff,#ddd, #fff) 20 20;
+}
+.home .backbady .badys .rightbady .visitors .view{
+    display: flex;
+}
+.home .backbady .badys .rightbady .visitors  .view div{
+    flex: 1;
+    text-align: center;
+    margin: 5px 0;
+}
+.home .backbady .badys .rightbady .visitors  .view img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.home .backbady .badys .rightbady .advertising .visitorsTitle{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-bottom:2px solid #ddd;
+    border-image: linear-gradient(to right,#fff,#ddd, #fff) 20 20;
+}
+.home .backbady .badys .rightbady .advertising .advertis{
+    background-color: rgb(63,133,255);
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.home .backbady .badys .rightbady .friend{
+    width: 100%;
+}
+.home .backbady .badys .rightbady .friend .visitorsTitle{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-bottom:2px solid #ddd;
+    border-image: linear-gradient(to right,#fff,#ddd, #fff) 20 20;
+}
+.home .backbady .badys .rightbady .friend img{
+    width: 50%;
+    height: 50%;
+    margin: 0 0 0 25%;
+}
+.home{
+    padding: 0 0 35px 0;
+}
+
+
+}
+
+
+@media screen and (min-width: 792px){
+    
+
+    
+    
+    .home .back2{
+        background-color: #fff;
+        background-size: 100vw;
+    }
+    .home .back2 .topnav{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    .home .back2 .topnav div {
+        float: right;
+    }
+    .home .back2 .topnav div input{
+        height: 40px;
+        border: none;
+        outline: none;
+    }
+    .home .back2 .topnav div span{
+        font-size: 20px;
+        color: #888;
+    }
+    .home .back2 .topnav div button{
+        border: none;
+        outline: none;
+        background-color: rgb(63,133,255);
+        color: #fff;
+        padding: 7px 9px;
+        border-radius: 5px;
+        margin: 0 0 0 10px;
+    }
+    
+    
+    .home .backbady{
+        padding: 20px 0 0 0;
+        background-color: #eee;
+        background-size: 1000px;
+        width: 100%;
+
+    }
+    .home .badys{
+        margin: 0 auto;
+        width: 100%;
+        display:flex;
+    }
+    
+    
+    .home .badys .leftbady{
+        width: 60%;
+    }
+    .badys .leftnav{
+        font-size: 15px;
+        color: #666;
+        background-color: #fff;
+        width: 100%;
+        padding: 10px 15px;
+    
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .badys .leftnav span{
+        padding: 0 10px 0 10px ;
+    }
+    .badys .leftnav .rightnav{
+        float: right;
+    }
+    .badys .leftbady .leftnav span{
+        cursor: pointer;
+    }
+    .badys .leftnav .ranking{
+        color: rgb(63,133,255);
+
+    }
+    
+    
+    .home .badys .rightbady{
+        width: 390px;
+        margin-left: 20px;
+    }
+    .home .badys .rightbady .topic{
+        background-color: #fff;
+    }
+    .home .badys .rightbady .topic .topicTitle{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .home .badys .rightbady .topic .topicNav{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+    }
+    .home .badys .rightbady .topic .topicNav span{
+        background-color:rgb(63,133,255);
+        color: #fff;
+        margin: 0 10px;
+        padding: 4px 6px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .home .badys .rightbady .visitors{
+        margin: 20px 0 0 0 ;
+        background-color: #fff;
+    }
+    .home .badys .rightbady .visitors .view{
+        display: flex;
+        padding: 10px 0;
+    }
+    .home .badys .rightbady .visitors .view div{
+        flex:1;
+        text-align: center;
+    }
+    .home .badys .rightbady .visitors .visitorsTitle{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .home .badys .rightbady .visitors img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 0 5px 0 0 ;
+    }
+    .home .badys .rightbady .advertising{
+        margin: 20px 0 0 0 ;
+        background-color: #fff;
+    }
+    .home .badys .rightbady .advertising .visitorsTitle{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .home .badys .rightbady .advertising .advertis{
+        color: #fff;
+        text-align: center;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 5px 5px 5px;
+        background-color: rgb(186,207,244);
+    }
+    .home .badys .rightbady .friend{
+        margin: 20px 0 0 0 ;
+        background-color: #fff;
+    }
+    .home .badys .rightbady .friend .visitorsTitle{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .home .badys .rightbady .friend .advertis{
+        width: 100%;
+        text-align: center;
+    }
+    .home .badys .rightbady .friend .advertis img{
+        width: 200px;
+        margin: 0 auto;
+    }
+
+
+
+
+    .home .backbady .badys .leftbady .articles img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+
+    }
+    .home .backbady .badys .leftbady .articles .article{
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+        padding: 10px 0 10px 5px;
+        
+    }
+    .home .backbady .badys .leftbady .articles .article .title strong{
+        cursor: pointer;
+
+    }
+    .home .backbady .badys .leftbady .articles .article .title strong:hover{
+        color: rgb(63,133,255);
+    }
+    .home .backbady .badys .leftbady .articles .article .title .categoryId{
+        background-color: rgb(197,218,255);
+        color: #fff;
+        padding: 2px 4px;
+        border-radius: 5px;
+        margin: 0 10px 0 0;
+    }
+    .home .backbady .badys .leftbady .articles .article .titles{
+        color: #999;
+        margin: 30px 0 0 0 ;
+        background-color: #fff;
+        width: 100%;
+    }
+    .home .backbady .badys .leftbady .articles .article .titles span{
+        margin: 0 5px;
+    }
+/*     @media screen and (min-width: 792px){
+        @media screen and (max-width: 1000px){
+            .home .backbady .badys .leftbady .articles .article .titles span{
+                font-size: 12px;
+            }
+            
+        }
+    } */
+    .home .backbady .badys .leftbady .articles .article .titles  .favoriteCount{
+        color: red;
+    }
+    .home .backbady .badys .leftbady .articles .article .titles .twoUpdatedAt{
+        display: none;
+    }
+    .home .backbady .badys .leftbady .articles .theBottom{
+        font-size: 15px;
+        background-color: #fff;
+        text-align: center;
+        padding: 5px 0 20px 0;
+    }
+    .home .backbady .badys .leftbady .articles .thePage{
+        background-color: rgb(63,133,255);
+        color: #fff;
+        padding: 0 0 0 15px;
+        height: 40px;
+        line-height: 40px;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        text-align: center;
+        display: flex;
+    }
+    .home .backbady .badys .leftbady .articles .thePage .pages{
+        margin: 0;
+    }
+    .home .backbady .badys .leftbady .articles .thePage .pages span{
+        padding: 12px 15px;
+        margin: 0;
+    }
+    .home .backbady .badys .leftbady .articles .thePage .pages .onPage{
+        background-color: rgb(197,218,255);
+        color: #000;
+        
+    }
+    .home .backbady .badys .leftbady .articles .thePage input{
+        width: 25px;
+        height: 25px;
+        border: none;
+        outline: none;
+        color: #000;
+        padding: 5px;
+    }
+    .home .backbady .badys .leftbady .articles .thePage input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    .home .backbady .badys .leftbady .articles .thePage .inputPage input{
+        border-radius: 50%;
+    }
+    .home .backbady .badys .leftbady .articles .thePage .glyphicon-menu-left{
+        position: relative;
+        top: 12px;
+    }
+    .home .backbady .badys .leftbady .articles .thePage .glyphicon-menu-right{
+        position: relative;
+        top: 12px;
+    }
+    .home .backbady .badys .leftbady .articles .thePage  select {
+        display: flex;
+        width: 100px;
+        color: #000;
+        background-color:rgb(197,218,255);
+        height: 40px;
+        border: none;
+    }
+    .home .backbady .badys .leftbady .articles .thePage span{
+        cursor: pointer;
+        margin: 0 3% 0 0;
+    }
+
+
+
+} 
+
+@media screen and (min-width: 792px){ 
+
+    .home .back .topback{
+        margin: 0 auto;
+        background-color: rgb(63,133,255);
+        padding: 5px 0;
+        font-size: 20px;
+        line-height: 55px;
+        width: 1200px;
+    }
+    
+    .home .back .topback span{
+        padding: 0 7px;
+    }
+    .home .back .topback .icon{
+        height: 50px;
+        width: 50px;
+    }
+    .home .back .topback .dog{
+        font-size: 25px;
+        line-height: 10px;
+        float:left;
+        width: 250px;
+    }
+    .home .back .topback .dog span{
+        line-height: 55px;
+    }
+    .home .back .my{
+        cursor: pointer;
+    }
+    .home .back .topback .text-right{
+        float: right;
+    }
+    
+    .home .back2{
+        background-color: #fff;
+        background-size: 100vw;
+    }
+    .home .back2 .topnav{
+        width: 1200px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    .home .back2 .topnav div {
+        float: right;
+    }
+    .home .back2 .topnav div input{
+        height: 40px;
+        border: none;
+        outline: none;
+    }
+    .home .back2 .topnav div span{
+        font-size: 20px;
+        color: #888;
+    }
+    .home .back2 .topnav div button{
+        border: none;
+        outline: none;
+        background-color: rgb(63,133,255);
+        color: #fff;
+        padding: 7px 9px;
+        border-radius: 5px;
+        margin: 0 0 0 10px;
+    }
+    
+    
+
+    .home .badys{
+        margin: 0 auto;
+        width: 1200px;
+        display:flex;
+    }
+    
+    .home .badys .leftbady{
+        width: 790px;
+    }
+    .badys .leftnav{
+        font-size: 15px;
+        color: #666;
+        background-color: #fff;
+        width: 100%;
+        padding: 10px 15px;
+    
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .badys .leftnav span{
+        padding: 0 10px 0 10px ;
+    }
+    .badys .leftnav .rightnav{
+        float: right;
+    }
+    
+    
+    .home .badys .rightbady{
+        width: 390px;
+        margin-left: 20px;
+    }
+    .home .badys .rightbady .topic{
+        background-color: #fff;
+    }
+    .home .badys .rightbady .topic .topicTitle{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .home .badys .rightbady .topic .topicNav{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+    }
+    .home .badys .rightbady .topic .topicNav span{
+        background-color:rgb(63,133,255);
+        color: #fff;
+        margin: 0 10px;
+        padding: 4px 6px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .home .badys .rightbady .visitors{
+        margin: 20px 0 0 0 ;
+        background-color: #fff;
+    }
+    .home .badys .rightbady .visitors .visitorsTitle{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    }

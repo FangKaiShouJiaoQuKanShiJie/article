@@ -1,0 +1,346 @@
+@media screen and (max-width: 792px){
+    .Reply .Detail{
+        padding: 0 0 0 5px;
+    }
+    .Reply .Detail .leftbady .title{
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+        margin: 20px 0 10px 0;
+    }
+    .Reply .Detail .leftbady .titles{
+        margin: 0 0 10px 0;
+    }
+    .Reply .Detail .leftbady .titles .categoryId{
+        background-color: rgb(186,207,244);
+        padding: 3px 5px;
+        margin: 0 0 0 0;
+        color: #fff;
+        border-radius: 5px;
+    }
+    .Reply .Detail .leftbady .titles .glyphicons{
+        float: right;
+    }
+    .Reply .Detail .leftbady .titles .glyphicons span{
+        margin: 0 10px;
+        color: #888;
+    }
+    .Reply .Detail .leftbady .flex{
+        display: flex;
+        line-height: 40px;
+    }
+    .Reply .Detail .leftbady .flex .img img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        resize:none;
+    }
+    .Reply .Detail .leftbady .flex .information .introduction span{
+        margin: 0 5px;
+    }
+    .Reply .Detail .leftbady .content{
+        margin: 10px 0 0 0 ;
+    }
+    .Reply .Detail  .reply{
+        width: 100%;
+    }
+    .Reply .Detail  .reply textarea{
+        width: 95%;
+        resize:none;
+        margin: 0 0 0 2.5%;
+        padding: 5px 10px ;
+    }
+    .Reply .Detail  .reply div{
+        margin: 0 0 0 2.5%;
+        width: 50px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 3px 6px ;
+        background-color:rgb(186,207,244);
+        color: #000;
+    }
+/* 回复 */
+    .Reply .Detail .leftbady .replys{
+        margin: 10px 0 20px 0 ;
+    }
+    .Reply .Detail .leftbady .replys .like{
+        float: right;
+        margin: 0 10px 0 0;
+    }
+    .Reply .Detail .leftbady .replys .like span{
+        margin: 0 10px;
+    }
+/* 右 */
+    .Reply .Detail .rightbady{
+        display: none;
+    }
+    .Reply .Detail .rightbady .topic .topicTitle{
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#fff,#ddd, #fff) 20 20;
+    }
+    .Reply .Detail .rightbady .topic .topicNav{
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
+    .Reply .Detail .rightbady .topic .topicNav span{
+        flex: 1;
+        padding: 3px 4px;
+        background-color: rgb(197,218,255);
+    }
+    .Reply .Detail .rightbady .advertising .visitorsTitle{
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#fff,#ddd, #fff) 20 20;
+    }
+    .Reply .Detail .advertising  .advertis{
+        background-color: rgb(186,207,244);
+        margin-right: 5px;
+        height: 60px;
+        color: #fff;
+        text-align: center;
+        line-height: 60px;
+    }
+    .Reply .Detail .rightbady .friend .visitorsTitle{
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#fff,#ddd, #fff) 20 20;
+    }
+    .Reply .Detail .rightbady .friend img{
+        width: 50%;
+        margin: 0 0 0 25%;
+    }
+    .Reply{
+        margin: 0 0 45px 0;
+    }
+
+
+
+}
+@media screen and (min-width: 792px){
+    .Reply{
+        background-color: #eee;
+        width: 100%;
+        padding: 15px 0 0 0;
+    }
+    .Reply .Detail{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .Reply .leftbady{
+        background-color: #fff;
+        width: 790px;
+        padding: 20px 0 0 15px;
+    }
+    .Reply .leftbady .title strong{
+        font-size: 17px;
+    }
+    .Reply .leftbady .titles .categoryId{
+        background-color: rgb(186,207,244);
+        color: #fff;
+        border-radius: 5px;
+        padding: 3px 4px ;
+        line-height: 40px;    
+    }
+    .Reply .leftbady .titles .glyphicons{
+        float: right;
+        color: #888
+    }
+    .Reply .leftbady .titles .glyphicons span{
+        margin: 0 10px 0 0 ;
+    }
+    .Reply .leftbady .flex{
+        display: flex;
+        background-color: rgb(245,245,245);
+        margin: 0 auto;
+        width: 730px;
+    }
+    .Reply .leftbady .flex .img img{
+        width: 80px;
+        margin: 0 15px 0 0 ;
+    }
+    .Reply .leftbady .flex .introduction{
+        line-height: 30px;
+    }
+    .Reply .leftbady .flex .introduction span{
+        margin:  0 10px;
+    }
+    .Reply .leftbady .flex .nointroduction{
+        line-height: 50px;
+    
+    }
+    /* 内容 */
+    .Reply .leftbady .content{
+        margin: 15px 0 0 0 ;
+    }
+    /* 点赞收藏 */
+    .Reply .leftbady .operation span{
+        margin: 0 7px;
+        cursor: pointer;
+        
+    }
+    /* 回复 */
+    .Reply .leftbady .reply textarea{
+        width: 750px;
+        height: 100px;
+        resize:none;
+        outline: none;
+        padding: 5px 10px ;
+    }
+    .Reply .leftbady .reply div{
+        background-color: rgb(186,207,244);
+        width: 40px;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 5px;
+        color: #000;
+        cursor: pointer;
+    }
+    .Reply .leftbady .color{
+        background-color: #eee;
+        height: 10px;
+        margin: 15px 0 0 -15px;
+    }
+    .Reply .leftbady .fenge{
+        padding: 15px 0 10px 0 ;
+    }
+    /* 回复 */
+    .Reply .leftbady .replys .flex{
+        background-color: #fff;
+        margin: 30px 0 0 0 ;
+        border-top:2px solid #000 ;
+        border-image: linear-gradient(to right,#bbb, #fff) 20 20;
+    }
+    .Reply .leftbady .replys .contentbody{
+        margin: 0 0 0 120px;
+        cursor: pointer;
+    }
+    .Reply .leftbady .replys .like{
+        float: right;
+        margin: 0 20px 0 0 ;
+    }
+    .Reply .leftbady .replys .like span{
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    
+    /* 回复 */
+    .Reply .leftbady .replyreply{
+        width: 400px;
+        height: 100px;
+        resize:none;
+        outline: none;
+    }
+    .Reply .leftbady .buttom{
+        padding: 3px 5px;
+        position: relative;
+        bottom: 8px;
+        border: none;
+        background-color: rgb(186,207,244);
+        color: #fff;
+        border-radius: 5px;
+        margin: 0 0 0 5px;
+        outline: none;
+    }
+    
+    /* 右 */
+    .Reply .Detail .rightbady{
+        width: 390px;
+        margin-left: 20px;
+    }
+    .Reply .Detail .rightbady .topic{
+        background-color: #fff;
+    }
+    .Reply .Detail .rightbady .topic .topicTitle{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .Reply .Detail .rightbady .topic .topicNav{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+    }
+    .Reply .Detail .rightbady .topic .topicNav span{
+        background-color:rgb(63,133,255);
+        color: #fff;
+        margin: 0 10px;
+        padding: 4px 6px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .Reply .Detail .rightbady .visitors{
+        margin: 20px 0 0 0 ;
+        background-color: #fff;
+    }
+    .Reply .Detail .rightbady .visitors .visitorsTitle{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .Reply .Detail .rightbady .advertising{
+        margin: 20px 0 0 0 ;
+        background-color: #fff;
+    }
+    .Reply .Detail .rightbady .advertising .visitorsTitle{
+        font-size: 15px;
+        height: 45px;
+        width: 100%;
+        line-height: 45px;
+        padding: 0 0 0 15px;
+        border-bottom:2px solid #ddd;
+        border-image: linear-gradient(to right,#eee, #fff) 20 20;
+    }
+    .Reply .Detail .rightbady .advertising .advertis{
+        color: #fff;
+        text-align: center;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 5px 5px 5px;
+        background-color: rgb(186,207,244);
+    }
+        /* 联系方式 */
+        .Reply .Detail .rightbady .friend{
+            margin: 20px 0 0 0 ;
+            background-color: #fff;
+        }
+        .Reply .Detail .rightbady .friend .visitorsTitle{
+            font-size: 15px;
+            height: 45px;
+            width: 100%;
+            line-height: 45px;
+            padding: 0 0 0 15px;
+            border-bottom:2px solid #ddd;
+            border-image: linear-gradient(to right,#eee, #fff) 20 20;
+        }
+        .Reply .Detail .rightbady .friend .advertis{
+            width: 100%;
+            text-align: center;
+        }
+        .Reply .Detail .rightbady .friend .advertis img{
+            width: 200px;
+            margin: 0 auto;
+        }
+    
+    
+    
+    
+    }

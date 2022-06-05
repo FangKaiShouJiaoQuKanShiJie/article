@@ -1,0 +1,139 @@
+@media screen and (max-width: 792px){
+    .Top .back{
+        display: none;
+    }
+    .Top .phoneBack{
+        z-index: 9999;
+    }
+    .Top .phoneBack .topback .text-right{
+        display: none;
+    }
+    .Top .phoneBack{
+        background-color: rgb(63,133,255);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .Top .phoneBack .topback{
+        margin: 0 auto;
+        background-color: rgb(63,133,255);
+        font-size: 20px;
+        height: 45px;
+        color: #fff;
+        display: flex;
+    }
+    .Top .phoneBack .topback div{
+        flex: 1;
+        text-align: center;
+    }
+    .Top .phoneBack .topback div span{
+        font-size: 15px;
+    }
+    .Top .phoneBack .topback div div{
+        height: 35px;
+        margin: -30px 0 0 0 ;
+        font-size: 14px;
+        position: relative;
+        top: 25px;
+    }
+    /* .Top .phoneBack .topback .yellow{
+        color: rgb(251,184,20);
+    } */
+
+}
+@media screen and (min-width: 792px){
+    .Top .phoneBack{
+        display: none;
+    }
+    @media screen and (max-width: 1200px){
+    
+    .Top .back{
+        background-color: rgb(63,133,255);
+        background-size: auto;
+        width: 1100px;
+    }
+    .Top .back .topback{
+    background-color: rgb(63,133,255);
+        width: 200%;
+        padding: 5px 0;
+        font-size: 20px;
+        line-height: 55px;
+        color: #fff;
+        width: 100vw;
+    }
+}
+    .Top .back .topback span .mys{
+        display: none;
+    }
+    
+    .Top .back .topback span{
+        padding: 0 7px;
+    }
+    .Top .back .topback .icon{
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+    }
+    .Top .back .topback .dog{
+        font-size: 25px;
+        line-height: 10px;
+        float:left;
+        width: 250px;
+    }
+    .Top .back .topback .dog span{
+        line-height: 55px;
+        cursor: pointer;
+    
+    }
+    .Top .back .topback .text-right{
+        float: right;
+    }
+
+    .Top .back .my{
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 1200px){
+.Top .back{
+    background-color: rgb(63,133,255);
+    background-size:100vw 100vw;
+}
+.Top .back .topback{
+    margin: 0 auto;
+    background-color: rgb(63,133,255);
+    padding: 5px 0;
+    font-size: 20px;
+    line-height: 55px;
+    color: #fff;
+    width: 1200px;
+}
+.Top .back .topback span .mys{
+    display: none;
+}
+
+.Top .back .topback span{
+    padding: 0 7px;
+}
+.Top .back .topback .icon{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.Top .back .topback .dog{
+    font-size: 25px;
+    line-height: 10px;
+    float:left;
+    width: 250px;
+}
+.Top .back .topback .dog span{
+    line-height: 55px;
+    cursor: pointer;
+
+}
+.Top .back .topback .text-right{
+    float: right;
+}
+.Top .back .my{
+    cursor: pointer;
+}
+}

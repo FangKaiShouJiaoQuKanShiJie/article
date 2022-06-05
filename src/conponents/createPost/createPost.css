@@ -1,0 +1,47 @@
+@media screen and (max-width: 792px){
+    .CreatePost{
+        padding: 0  5px;
+    }
+.CreatePost .title{
+    height: 40px;
+    line-height: 40px;
+}
+.CreatePost button{
+    width: 100%;
+    outline: none;
+}
+}
+@media screen and (min-width: 792px){
+    .CreatePost{
+        width: 1200px;
+        margin: 0 auto;
+        padding:  0 10px;
+
+    }
+    .CreatePost .title{
+        height: 40px ;
+        width: 100px;
+        line-height: 40px;
+        border-bottom: 2px solid rgb(63,133,255);
+        text-align: center;
+        margin: 20px 0 10px 0 ;
+    }
+    .CreatePost textarea{
+        resize:none;
+    }
+
+
+    .CreatePost .form-group div{
+        width: 20%;
+        border-bottom: none;
+        height: 20px;
+        line-height: 20px;
+        margin: 20px 0 10px 0 ;
+    }
+    .CreatePost .form-group select{
+        width: 20%;
+    }
+    .CreatePost button{
+        margin: 0 0 45px 0;
+    }
+}

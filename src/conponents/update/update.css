@@ -1,0 +1,48 @@
+.Update{
+    padding: 10px 0 0 0 ;
+}
+.Update .phone img{
+    width: 80px;
+    height:80px;
+}
+.Update .phone div{
+    line-height: 50px;
+    border-bottom: 1px solid #eee;
+}
+.Update .phone .glyphicon{
+    float: right;
+    line-height: 50px;
+    padding: 0 10px 0 20px;
+}
+.Update .phone .img .glyphicon{
+    line-height: 80px;
+}
+.Update .phone .img div div{
+    display: flex;
+    
+}
+.Update .phone div div{
+    padding: 0 0 0 13%;
+}
+.Update .phone div input{
+    width: 77%;
+}
+.Update .phone div button{
+    width: 20%;
+    float: right;
+}
+/* .Update .phone .themobile{
+    padding: 3px 5px;
+    background-color: rgb(197,218,255);
+    float: right;
+    margin: 0 20px 0 0;
+} */
+
+
+
+@media screen and (min-width: 792px){
+    .Update{
+        width: 800px;
+        margin: 0 auto;
+    }
+}
